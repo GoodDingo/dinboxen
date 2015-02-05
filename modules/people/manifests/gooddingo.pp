@@ -1,6 +1,5 @@
 class people::gooddingo {
 
-  homebrew::tap { 'homebrew/versions': }
   homebrew::tap { 'homebrew/dupes': }
   homebrew::tap { 'homebrew/x11': }
 
@@ -21,7 +20,6 @@ class people::gooddingo {
     'diffutils',
     'dnstracer',
     'ed',
-    'emacs-mac',
     'file-formula',
     'fontconfig',
     'freetype',
@@ -29,8 +27,6 @@ class people::gooddingo {
     'gdbm',
     'gdk-pixbuf',
     'gettext',
-    'git',
-    'git-gerrit',
     'glib',
     'gmp',
     'gnu-indent',
@@ -80,11 +76,9 @@ class people::gooddingo {
     'openssl',
     'pango',
     'pixman',
-    'pssh',
     'psutils',
     'putty',
     'python',
-    'rsync',
     'rxvt-unicode',
     's-lang',
     'scons',
